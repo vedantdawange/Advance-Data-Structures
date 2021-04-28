@@ -88,6 +88,7 @@ void hashtable::chain_with_rep(int data)
     }
     display();
 }
+
 void hashtable::chain_no_rep(int data)
 {
     int hash_value = calculate(data);
@@ -181,7 +182,7 @@ int main()
         break;
 
     default:
-        cout << "\nWrong Choice";
+        cout << "\nWrong Choice! Try Again! ";
     }
     return 0;
 }
