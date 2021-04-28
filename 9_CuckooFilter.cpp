@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
 #include <iostream>
 #define TNO 2
 #define MOD 6
